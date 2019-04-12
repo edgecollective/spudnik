@@ -1,0 +1,29 @@
+{
+  "name": "farm-server",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "Geoff Huston",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.40",
+    "@types/mongodb": "^3.1.22",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.2.2",
+    "nano": "^8.0.1"
+  }
+}
